@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		18315BE91F19A16300F92B54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18315BE81F19A16300F92B54 /* AppDelegate.swift */; };
-		18315BEB1F19A16300F92B54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18315BEA1F19A16300F92B54 /* ViewController.swift */; };
+		18315BEB1F19A16300F92B54 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18315BEA1F19A16300F92B54 /* QuestionViewController.swift */; };
 		18315BEE1F19A16300F92B54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18315BEC1F19A16300F92B54 /* Main.storyboard */; };
 		18315BF01F19A16300F92B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18315BEF1F19A16300F92B54 /* Assets.xcassets */; };
 		18315BF31F19A16300F92B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18315BF11F19A16300F92B54 /* LaunchScreen.storyboard */; };
+		18315BFB1F19A8C900F92B54 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18315BFA1F19A8C900F92B54 /* InfoViewController.swift */; };
+		18315BFD1F19A91300F92B54 /* InfoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18315BFC1F19A91300F92B54 /* InfoItemViewController.swift */; };
+		18315BFF1F19ACF900F92B54 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18315BFE1F19ACF900F92B54 /* Question.swift */; };
+		1858AF711F19CCEF008EA25C /* InfoBrowseItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858AF701F19CCEF008EA25C /* InfoBrowseItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18315BE51F19A16300F92B54 /* FirstAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18315BE81F19A16300F92B54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18315BEA1F19A16300F92B54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18315BEA1F19A16300F92B54 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		18315BED1F19A16300F92B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18315BEF1F19A16300F92B54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18315BF21F19A16300F92B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18315BF41F19A16300F92B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18315BFA1F19A8C900F92B54 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		18315BFC1F19A91300F92B54 /* InfoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoItemViewController.swift; sourceTree = "<group>"; };
+		18315BFE1F19ACF900F92B54 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		1858AF701F19CCEF008EA25C /* InfoBrowseItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoBrowseItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				18315BE81F19A16300F92B54 /* AppDelegate.swift */,
-				18315BEA1F19A16300F92B54 /* ViewController.swift */,
+				18315BEA1F19A16300F92B54 /* QuestionViewController.swift */,
+				18315BFA1F19A8C900F92B54 /* InfoViewController.swift */,
+				18315BFC1F19A91300F92B54 /* InfoItemViewController.swift */,
 				18315BEC1F19A16300F92B54 /* Main.storyboard */,
 				18315BEF1F19A16300F92B54 /* Assets.xcassets */,
 				18315BF11F19A16300F92B54 /* LaunchScreen.storyboard */,
 				18315BF41F19A16300F92B54 /* Info.plist */,
+				18315BFE1F19ACF900F92B54 /* Question.swift */,
+				1858AF701F19CCEF008EA25C /* InfoBrowseItemViewController.swift */,
 			);
 			path = FirstAid;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18315BEB1F19A16300F92B54 /* ViewController.swift in Sources */,
+				18315BFF1F19ACF900F92B54 /* Question.swift in Sources */,
+				18315BEB1F19A16300F92B54 /* QuestionViewController.swift in Sources */,
+				18315BFD1F19A91300F92B54 /* InfoItemViewController.swift in Sources */,
+				18315BFB1F19A8C900F92B54 /* InfoViewController.swift in Sources */,
 				18315BE91F19A16300F92B54 /* AppDelegate.swift in Sources */,
+				1858AF711F19CCEF008EA25C /* InfoBrowseItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +280,7 @@
 				DEVELOPMENT_TEAM = RX32SQM8RS;
 				INFOPLIST_FILE = FirstAid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Help.FirstAid;
+				PRODUCT_BUNDLE_IDENTIFIER = SOSKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -277,7 +293,7 @@
 				DEVELOPMENT_TEAM = RX32SQM8RS;
 				INFOPLIST_FILE = FirstAid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Help.FirstAid;
+				PRODUCT_BUNDLE_IDENTIFIER = SOSKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +318,7 @@
 				18315BF91F19A16300F92B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
